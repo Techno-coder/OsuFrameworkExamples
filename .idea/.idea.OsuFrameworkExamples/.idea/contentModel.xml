@@ -559,9 +559,14 @@
         <e p="bin" t="ExcludeRecursive" />
         <e p="Configuration" t="Include">
           <e p="Bindable.cs" t="Include" />
+          <e p="ConfigManager.cs" t="Include" />
         </e>
+        <e p="ExamplesMain.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive" />
         <e p="OsuFrameworkExamples.csproj" t="IncludeRecursive" />
+        <e p="Platform" t="Include">
+          <e p="Storage.cs" t="Include" />
+        </e>
         <e p="Properties" t="Include">
           <e p="AssemblyInfo.cs" t="Include" />
         </e>

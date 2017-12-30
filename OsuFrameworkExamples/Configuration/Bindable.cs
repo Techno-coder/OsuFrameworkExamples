@@ -3,7 +3,7 @@ using osu.Framework.Configuration;
 
 namespace OsuFrameworkExamples.Configuration {
 	public static class Bindable {
-		private static void Main(string[] args) {
+		public static void Run() {
 			/**
 			 * osu.Framework.Configuration.Bindable
 			 * 
@@ -14,7 +14,7 @@ namespace OsuFrameworkExamples.Configuration {
 			 * Bindables can be linked together so if the value changes, the other bindables are changed too
 			 */
 			
-			Console.WriteLine("======================================");
+			ExamplesMain.PrintLongHorizontalLineSeparator();
 			
 			// Starting health is 100
 			var healthMeter = new Bindable<int>(100);
@@ -38,7 +38,7 @@ namespace OsuFrameworkExamples.Configuration {
 				Console.WriteLine("Oops, looks like we can't change the value because it's disabled");
 			}
 			
-			Console.WriteLine("======================================");
+			ExamplesMain.PrintLongHorizontalLineSeparator();
 
 			// If the health gets enabled again we'll need to unpause the game
 			healthMeter.DisabledChanged += ChangePauseState;
@@ -58,7 +58,7 @@ namespace OsuFrameworkExamples.Configuration {
 			// Let's respawn the player
 			healthMeter.SetDefault();
 			
-			Console.WriteLine("======================================");
+			ExamplesMain.PrintLongHorizontalLineSeparator();
 			
 			// Need to trigger listeners without changing the value? No problem
 			// Note: Triggers both ValueChanged and DisabledChanged listeners
@@ -78,7 +78,7 @@ namespace OsuFrameworkExamples.Configuration {
 				Console.WriteLine("Hey, they're the same value!");
 			}
 			
-			Console.WriteLine("======================================");
+			ExamplesMain.PrintLongHorizontalLineSeparator();
 			
 			// Let's split up state handling as well
 			healthMeter.DisabledChanged -= ChangePauseState;
@@ -101,6 +101,8 @@ namespace OsuFrameworkExamples.Configuration {
 			
 			// Or both at the same time!
 			healthMeter.UnbindAll();
+			
+			ExamplesMain.PrintLongHorizontalLineSeparator();
 		}
 
 		private static void UpdateHealthInterface(int newHealth) {
