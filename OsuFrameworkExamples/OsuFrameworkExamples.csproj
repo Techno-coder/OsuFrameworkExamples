@@ -42,6 +42,7 @@
     <Compile Include="Configuration\Bindable.cs" />
     <Compile Include="Configuration\ConfigManager.cs" />
     <Compile Include="ExamplesMain.cs" />
+    <Compile Include="Lists\LazyList.cs" />
     <Compile Include="Platform\Storage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
