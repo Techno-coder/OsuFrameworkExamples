@@ -1,0 +1,574 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="osu-framework/osu-framework.licenseheader" t="Include" />
+      <e p="osu-framework/osu.Framework" t="IncludeRecursive">
+        <e p="Allocation" t="Include">
+          <e p="BackgroundDependencyLoader.cs" t="Include" />
+          <e p="BufferStack.cs" t="Include" />
+          <e p="DependencyContainer.cs" t="Include" />
+          <e p="InvokeOnDisposal.cs" t="Include" />
+          <e p="IReadOnlyDependencyContainer.cs" t="Include" />
+          <e p="ObjectStack.cs" t="Include" />
+          <e p="ObjectUsage.cs" t="Include" />
+          <e p="RecursiveLoadException.cs" t="Include" />
+          <e p="TimedExpiryCache.cs" t="Include" />
+          <e p="TripleBuffer.cs" t="Include" />
+        </e>
+        <e p="app.config" t="Include" />
+        <e p="Audio" t="Include">
+          <e p="AdjustableAudioComponent.cs" t="Include" />
+          <e p="AudioCollectionManager.cs" t="Include" />
+          <e p="AudioComponent.cs" t="Include" />
+          <e p="AudioManager.cs" t="Include" />
+          <e p="IBassAudio.cs" t="Include" />
+          <e p="IHasPitchAdjust.cs" t="Include" />
+          <e p="Sample" t="Include">
+            <e p="Sample.cs" t="Include" />
+            <e p="SampleBass.cs" t="Include" />
+            <e p="SampleChannel.cs" t="Include" />
+            <e p="SampleChannelBass.cs" t="Include" />
+            <e p="SampleManager.cs" t="Include" />
+          </e>
+          <e p="Track" t="Include">
+            <e p="DataStreamFileProcedures.cs" t="Include" />
+            <e p="Track.cs" t="Include" />
+            <e p="TrackAmplitudes.cs" t="Include" />
+            <e p="TrackBass.cs" t="Include" />
+            <e p="TrackManager.cs" t="Include" />
+            <e p="TrackVirtual.cs" t="Include" />
+            <e p="Waveform.cs" t="Include" />
+          </e>
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Caching" t="Include">
+          <e p="Cached.cs" t="Include" />
+        </e>
+        <e p="Configuration" t="Include">
+          <e p="Bindable.cs" t="Include" />
+          <e p="BindableBool.cs" t="Include" />
+          <e p="BindableDouble.cs" t="Include" />
+          <e p="BindableFloat.cs" t="Include" />
+          <e p="BindableInt.cs" t="Include" />
+          <e p="BindableLong.cs" t="Include" />
+          <e p="BindableNumber.cs" t="Include" />
+          <e p="ConfigManager.cs" t="Include" />
+          <e p="FrameSync.cs" t="Include" />
+          <e p="FrameworkConfigManager.cs" t="Include" />
+          <e p="FrameworkDebugConfig.cs" t="Include" />
+          <e p="IBindable.cs" t="Include" />
+          <e p="IParseable.cs" t="Include" />
+          <e p="NonNullableBindable.cs" t="Include" />
+          <e p="WindowMode.cs" t="Include" />
+        </e>
+        <e p="Development" t="Include">
+          <e p="DebugUtils.cs" t="Include" />
+          <e p="ThreadSafety.cs" t="Include" />
+        </e>
+        <e p="Extensions" t="Include">
+          <e p="Color4Extensions" t="Include">
+            <e p="Color4Extensions.cs" t="Include" />
+          </e>
+          <e p="ExceptionExtensions" t="Include">
+            <e p="ExceptionExtensions.cs" t="Include" />
+          </e>
+          <e p="ExtensionMethods.cs" t="Include" />
+          <e p="IEnumerableExtensions" t="Include">
+            <e p="EnumerableExtensions.cs" t="Include" />
+          </e>
+          <e p="MatrixExtensions" t="Include">
+            <e p="MatrixExtensions.cs" t="Include" />
+          </e>
+          <e p="PolygonExtensions" t="Include">
+            <e p="ConvexPolygonExtensions.cs" t="Include" />
+            <e p="PolygonExtensions.cs" t="Include" />
+          </e>
+          <e p="TypeExtensions" t="Include">
+            <e p="TypeExtensions.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Game.cs" t="Include" />
+        <e p="Graphics" t="Include">
+          <e p="Animations" t="Include">
+            <e p="Animation.cs" t="Include" />
+            <e p="AnimationExtensions.cs" t="Include" />
+            <e p="DrawableAnimation.cs" t="Include" />
+            <e p="FrameData.cs" t="Include" />
+            <e p="IAnimation.cs" t="Include" />
+            <e p="TextureAnimation.cs" t="Include" />
+          </e>
+          <e p="Audio" t="Include">
+            <e p="WaveformGraph.cs" t="Include" />
+          </e>
+          <e p="Batches" t="Include">
+            <e p="IVertexBatch.cs" t="Include" />
+            <e p="LinearBatch.cs" t="Include" />
+            <e p="QuadBatch.cs" t="Include" />
+            <e p="VertexBatch.cs" t="Include" />
+          </e>
+          <e p="BlendingInfo.cs" t="Include" />
+          <e p="BlendingParameters.cs" t="Include" />
+          <e p="Colour" t="Include">
+            <e p="ColourInfo.cs" t="Include" />
+            <e p="SRGBColour.cs" t="Include" />
+          </e>
+          <e p="Containers" t="Include">
+            <e p="BufferedContainer.cs" t="Include" />
+            <e p="BufferedContainerDrawNode.cs" t="Include" />
+            <e p="CircularContainer.cs" t="Include" />
+            <e p="ClickableContainer.cs" t="Include" />
+            <e p="CompositeDrawable.cs" t="Include" />
+            <e p="CompositeDrawNode.cs" t="Include" />
+            <e p="Container.cs" t="Include" />
+            <e p="CustomizableTextContainer.cs" t="Include" />
+            <e p="DelayedLoadWrapper.cs" t="Include" />
+            <e p="DrawSizePreservingFillContainer.cs" t="Include" />
+            <e p="FillFlowContainer.cs" t="Include" />
+            <e p="FlowContainer.cs" t="Include" />
+            <e p="FocusedOverlayContainer.cs" t="Include" />
+            <e p="GridContainer.cs" t="Include" />
+            <e p="IBufferedContainer.cs" t="Include" />
+            <e p="IContainer.cs" t="Include" />
+            <e p="IFillFlowContainer.cs" t="Include" />
+            <e p="IFilterable.cs" t="Include" />
+            <e p="IHasFilterableChildren.cs" t="Include" />
+            <e p="IHasFilterTerms.cs" t="Include" />
+            <e p="OverlayContainer.cs" t="Include" />
+            <e p="ScrollContainer.cs" t="Include" />
+            <e p="SearchContainer.cs" t="Include" />
+            <e p="TabbableContainer.cs" t="Include" />
+            <e p="TextFlowContainer.cs" t="Include" />
+            <e p="VisibilityContainer.cs" t="Include" />
+          </e>
+          <e p="Cursor" t="Include">
+            <e p="ContextMenuContainer.cs" t="Include" />
+            <e p="CursorContainer.cs" t="Include" />
+            <e p="CursorEffectContainer.cs" t="Include" />
+            <e p="IHasContextMenu.cs" t="Include" />
+            <e p="IHasCustomTooltip.cs" t="Include" />
+            <e p="IHasTooltip.cs" t="Include" />
+            <e p="ITooltip.cs" t="Include" />
+            <e p="TooltipContainer.cs" t="Include" />
+          </e>
+          <e p="Drawable.cs" t="Include" />
+          <e p="DrawInfo.cs" t="Include" />
+          <e p="DrawNode.cs" t="Include" />
+          <e p="Easing.cs" t="Include" />
+          <e p="Effects" t="Include">
+            <e p="BlurEffect.cs" t="Include" />
+            <e p="EdgeEffect.cs" t="Include" />
+            <e p="EffectExtensions.cs" t="Include" />
+            <e p="GlowEffect.cs" t="Include" />
+            <e p="IEffect.cs" t="Include" />
+            <e p="OutlineEffect.cs" t="Include" />
+          </e>
+          <e p="IDrawable.cs" t="Include" />
+          <e p="Lines" t="Include">
+            <e p="Path.cs" t="Include" />
+            <e p="PathDrawNode.cs" t="Include" />
+          </e>
+          <e p="MarginPadding.cs" t="Include" />
+          <e p="OpenGL" t="Include">
+            <e p="Buffers" t="Include">
+              <e p="FrameBuffer.cs" t="Include" />
+              <e p="LinearVertexBuffer.cs" t="Include" />
+              <e p="QuadVertexBuffer.cs" t="Include" />
+              <e p="RenderBuffer.cs" t="Include" />
+              <e p="VertexBuffer.cs" t="Include" />
+            </e>
+            <e p="GLWrapper.cs" t="Include" />
+            <e p="Textures" t="Include">
+              <e p="TextureGL.cs" t="Include" />
+              <e p="TextureGLAtlas.cs" t="Include" />
+              <e p="TextureGLAtlasWhite.cs" t="Include" />
+              <e p="TextureGLSingle.cs" t="Include" />
+              <e p="TextureGLSub.cs" t="Include" />
+              <e p="TextureUpload.cs" t="Include" />
+            </e>
+            <e p="Vertices" t="Include">
+              <e p="IVertex.cs" t="Include" />
+              <e p="ParticleVertex2D.cs" t="Include" />
+              <e p="TexturedVertex2D.cs" t="Include" />
+              <e p="TexturedVertex3D.cs" t="Include" />
+              <e p="TimedTexturedVertex2D.cs" t="Include" />
+              <e p="UncolouredVertex2D.cs" t="Include" />
+              <e p="Vertex2D.cs" t="Include" />
+              <e p="VertexMemberAttribute.cs" t="Include" />
+              <e p="VertexUtils.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Performance" t="Include">
+            <e p="FpsDisplay.cs" t="Include" />
+            <e p="FrameStatisticsDisplay.cs" t="Include" />
+            <e p="PerformanceOverlay.cs" t="Include" />
+          </e>
+          <e p="Primitives" t="Include">
+            <e p="IConvexPolygon.cs" t="Include" />
+            <e p="IPolygon.cs" t="Include" />
+            <e p="Line.cs" t="Include" />
+            <e p="ProjectionRange.cs" t="Include" />
+            <e p="Quad.cs" t="Include" />
+            <e p="RectangleF.cs" t="Include" />
+            <e p="RectangleI.cs" t="Include" />
+            <e p="Triangle.cs" t="Include" />
+            <e p="Vector2I.cs" t="Include" />
+          </e>
+          <e p="ProxyDrawable.cs" t="Include" />
+          <e p="Shaders" t="Include">
+            <e p="AttributeInfo.cs" t="Include" />
+            <e p="Shader.cs" t="Include" />
+            <e p="ShaderManager.cs" t="Include" />
+            <e p="ShaderPart.cs" t="Include" />
+            <e p="Uniform.cs" t="Include" />
+            <e p="UniformBase.cs" t="Include" />
+          </e>
+          <e p="Shapes" t="Include">
+            <e p="Box.cs" t="Include" />
+            <e p="Circle.cs" t="Include" />
+            <e p="EquilateralTriangle.cs" t="Include" />
+            <e p="Triangle.cs" t="Include" />
+          </e>
+          <e p="Sprites" t="Include">
+            <e p="IHasLineBaseHeight.cs" t="Include" />
+            <e p="IHasText.cs" t="Include" />
+            <e p="Sprite.cs" t="Include" />
+            <e p="SpriteDrawNode.cs" t="Include" />
+            <e p="SpriteText.cs" t="Include" />
+          </e>
+          <e p="Textures" t="Include">
+            <e p="PrefixTextureStore.cs" t="Include" />
+            <e p="RawTexture.cs" t="Include" />
+            <e p="RawTextureLoaderStore.cs" t="Include" />
+            <e p="Texture.cs" t="Include" />
+            <e p="TextureAtlas.cs" t="Include" />
+            <e p="TextureLoader.cs" t="Include" />
+            <e p="TextureStore.cs" t="Include" />
+            <e p="TextureWhitePixel.cs" t="Include" />
+          </e>
+          <e p="TransformableExtensions.cs" t="Include" />
+          <e p="Transforms" t="Include">
+            <e p="ITransformable.cs" t="Include" />
+            <e p="Transform.cs" t="Include" />
+            <e p="Transformable.cs" t="Include" />
+            <e p="TransformCustom.cs" t="Include" />
+            <e p="TransformSequence.cs" t="Include" />
+          </e>
+          <e p="TransformSequenceExtensions.cs" t="Include" />
+          <e p="UserInterface" t="Include">
+            <e p="BasicCheckbox.cs" t="Include" />
+            <e p="BasicDropdown.cs" t="Include" />
+            <e p="BasicSliderBar.cs" t="Include" />
+            <e p="Button.cs" t="Include" />
+            <e p="Checkbox.cs" t="Include" />
+            <e p="CircularProgress.cs" t="Include" />
+            <e p="CircularProgressDrawNode.cs" t="Include" />
+            <e p="Counter.cs" t="Include" />
+            <e p="Dropdown.cs" t="Include" />
+            <e p="DropdownHeader.cs" t="Include" />
+            <e p="DropdownMenuItem.cs" t="Include" />
+            <e p="IHasCurrentValue.cs" t="Include" />
+            <e p="Menu.cs" t="Include" />
+            <e p="MenuItem.cs" t="Include" />
+            <e p="PasswordTextBox.cs" t="Include" />
+            <e p="SliderBar.cs" t="Include" />
+            <e p="TabControl.cs" t="Include" />
+            <e p="TabItem.cs" t="Include" />
+            <e p="TextBox.cs" t="Include" />
+          </e>
+          <e p="Vector2Extensions.cs" t="Include" />
+          <e p="Visualisation" t="Include">
+            <e p="DrawVisualiser.cs" t="Include" />
+            <e p="FlashyBox.cs" t="Include" />
+            <e p="InfoOverlay.cs" t="Include" />
+            <e p="LogOverlay.cs" t="Include" />
+            <e p="PropertyDisplay.cs" t="Include" />
+            <e p="TreeContainer.cs" t="Include" />
+            <e p="VisualisedDrawable.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Host.cs" t="Include" />
+        <e p="Input" t="Include">
+          <e p="Bindings" t="Include">
+            <e p="IKeyBindingHandler.cs" t="Include" />
+            <e p="InputKey.cs" t="Include" />
+            <e p="KeyBinding.cs" t="Include" />
+            <e p="KeyBindingContainer.cs" t="Include" />
+            <e p="KeyCombination.cs" t="Include" />
+          </e>
+          <e p="CustomInputManager.cs" t="Include" />
+          <e p="FrameworkActionContainer.cs" t="Include" />
+          <e p="GameWindowTextInput.cs" t="Include" />
+          <e p="Handlers" t="Include">
+            <e p="IHasCursorSensitivity.cs" t="Include" />
+            <e p="InputHandler.cs" t="Include" />
+            <e p="Keyboard" t="Include">
+              <e p="OpenTKKeyboardHandler.cs" t="Include" />
+            </e>
+            <e p="Mouse" t="Include">
+              <e p="OpenTKEventMouseState.cs" t="Include" />
+              <e p="OpenTKMouseHandler.cs" t="Include" />
+              <e p="OpenTKMouseState.cs" t="Include" />
+              <e p="OpenTKPollMouseState.cs" t="Include" />
+              <e p="OpenTKRawMouseHandler.cs" t="Include" />
+            </e>
+          </e>
+          <e p="IHandleGlobalInput.cs" t="Include" />
+          <e p="IKeyboardState.cs" t="Include" />
+          <e p="IMouseState.cs" t="Include" />
+          <e p="InputManager.cs" t="Include" />
+          <e p="InputResampler.cs" t="Include" />
+          <e p="InputState.cs" t="Include" />
+          <e p="IRequireHighFrequencyMousePosition.cs" t="Include" />
+          <e p="ITextInputSource.cs" t="Include" />
+          <e p="KeyboardState.cs" t="Include" />
+          <e p="KeyDownEventArgs.cs" t="Include" />
+          <e p="KeyUpEventArgs.cs" t="Include" />
+          <e p="MouseDownEventArgs.cs" t="Include" />
+          <e p="MouseEventArgs.cs" t="Include" />
+          <e p="MouseState.cs" t="Include" />
+          <e p="MouseUpEventArgs.cs" t="Include" />
+          <e p="PassThroughInputManager.cs" t="Include" />
+          <e p="PlatformActionContainer.cs" t="Include" />
+          <e p="UserInputManager.cs" t="Include" />
+        </e>
+        <e p="IO" t="Include">
+          <e p="AsyncBufferStream.cs" t="Include" />
+          <e p="File" t="Include">
+            <e p="FileSafety.cs" t="Include" />
+          </e>
+          <e p="Network" t="Include">
+            <e p="FileWebRequest.cs" t="Include" />
+            <e p="HttpMethod.cs" t="Include" />
+            <e p="JsonWebRequest.cs" t="Include" />
+            <e p="UrlEncoding.cs" t="Include" />
+            <e p="WebRequest.cs" t="Include" />
+          </e>
+          <e p="Serialization" t="Include">
+            <e p="SortedListConverter.cs" t="Include" />
+          </e>
+          <e p="Stores" t="Include">
+            <e p="CachedResourceStore.cs" t="Include" />
+            <e p="ChangeableResourceStore.cs" t="Include" />
+            <e p="DllResourceStore.cs" t="Include" />
+            <e p="FileSystemResourceStore.cs" t="Include" />
+            <e p="GlyphStore.cs" t="Include" />
+            <e p="IResourceStore.cs" t="Include" />
+            <e p="NamespacedResourceStore.cs" t="Include" />
+            <e p="OnlineStore.cs" t="Include" />
+            <e p="ResourceStore.cs" t="Include" />
+            <e p="StorageBackedResourceStore.cs" t="Include" />
+          </e>
+        </e>
+        <e p="IStateful.cs" t="Include" />
+        <e p="IUpdateable.cs" t="Include" />
+        <e p="libbass.dylib" t="Include" />
+        <e p="libbass.x64.so" t="Include" />
+        <e p="libbass.x86.so" t="Include" />
+        <e p="libbass_fx.dylib" t="Include" />
+        <e p="libbass_fx.x64.so" t="Include" />
+        <e p="libbass_fx.x86.so" t="Include" />
+        <e p="Lists" t="Include">
+          <e p="LazyList.cs" t="Include" />
+          <e p="SortedList.cs" t="Include" />
+          <e p="WeakList.cs" t="Include" />
+        </e>
+        <e p="Localisation" t="Include">
+          <e p="FormatString.cs" t="Include" />
+          <e p="LocalisationEngine.cs" t="Include" />
+          <e p="LocalisedFormatString.cs" t="Include" />
+          <e p="LocalisedString.cs" t="Include" />
+          <e p="UnicodeBindableString.cs" t="Include" />
+        </e>
+        <e p="Logging" t="Include">
+          <e p="Logger.cs" t="Include" />
+        </e>
+        <e p="ManagedBass.dll.config" t="Include" />
+        <e p="ManagedBass.Fx.dll.config" t="Include" />
+        <e p="MathUtils" t="Include">
+          <e p="Blur.cs" t="Include" />
+          <e p="Interpolation.cs" t="Include" />
+          <e p="NumberFormatter.cs" t="Include" />
+          <e p="Precision.cs" t="Include" />
+          <e p="RNG.cs" t="Include" />
+          <e p="Validation.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="OpenTK.dll.config" t="Include" />
+        <e p="osu.Framework.csproj" t="IncludeRecursive" />
+        <e p="packages.config" t="Include" />
+        <e p="Physics" t="Include">
+          <e p="IRigidBody.cs" t="Include" />
+          <e p="RigidBodyContainer.cs" t="Include" />
+          <e p="RigidBodySimulation.cs" t="Include" />
+        </e>
+        <e p="Platform" t="Include">
+          <e p="Architecture.cs" t="Include" />
+          <e p="Clipboard.cs" t="Include" />
+          <e p="DesktopGameHost.cs" t="Include" />
+          <e p="DesktopGameWindow.cs" t="Include" />
+          <e p="DesktopStorage.cs" t="Include" />
+          <e p="GameHost.cs" t="Include" />
+          <e p="GameWindow.cs" t="Include" />
+          <e p="HeadlessGameHost.cs" t="Include" />
+          <e p="IIpcHost.cs" t="Include" />
+          <e p="IpcChannel.cs" t="Include" />
+          <e p="IpcMessage.cs" t="Include" />
+          <e p="Linux" t="Include">
+            <e p="LinuxClipboard.cs" t="Include" />
+            <e p="LinuxGameHost.cs" t="Include" />
+            <e p="LinuxStorage.cs" t="Include" />
+          </e>
+          <e p="MacOS" t="Include">
+            <e p="MacOSClipboard.cs" t="Include" />
+            <e p="MacOSGameHost.cs" t="Include" />
+            <e p="MacOSGameWindow.cs" t="Include" />
+            <e p="MacOSStorage.cs" t="Include" />
+            <e p="Native" t="Include">
+              <e p="Class.cs" t="Include" />
+              <e p="Cocoa.cs" t="Include" />
+              <e p="NSArray.cs" t="Include" />
+              <e p="NSDictionary.cs" t="Include" />
+              <e p="NSPasteboard.cs" t="Include" />
+              <e p="Selector.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Storage.cs" t="Include" />
+          <e p="TcpIpcProvider.cs" t="Include" />
+          <e p="Windows" t="Include">
+            <e p="Native" t="Include">
+              <e p="Execution.cs" t="Include" />
+              <e p="Input.cs" t="Include" />
+              <e p="Registry.cs" t="Include" />
+            </e>
+            <e p="TimePeriod.cs" t="Include" />
+            <e p="WindowsClipboard.cs" t="Include" />
+            <e p="WindowsGameHost.cs" t="Include" />
+            <e p="WindowsGameWindow.cs" t="Include" />
+            <e p="WindowsStorage.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="Resources" t="Include">
+          <e p="Fonts" t="Include">
+            <e p="LICENSE.txt" t="Include" />
+            <e p="OpenSans.fnt" t="Include" />
+            <e p="OpenSans_0.png" t="Include" />
+            <e p="OpenSans_1.png" t="Include" />
+          </e>
+          <e p="Shaders" t="Include">
+            <e p="sh_Bloom.fs" t="Include" />
+            <e p="sh_Blur.fs" t="Include" />
+            <e p="sh_Colour.fs" t="Include" />
+            <e p="sh_Colour.vs" t="Include" />
+            <e p="sh_ColourRounded.fs" t="Include" />
+            <e p="sh_Particle.vs" t="Include" />
+            <e p="sh_Position.vs" t="Include" />
+            <e p="sh_Texture.fs" t="Include" />
+            <e p="sh_Texture2D.vs" t="Include" />
+            <e p="sh_Texture3D.vs" t="Include" />
+            <e p="sh_TextureRounded.fs" t="Include" />
+            <e p="sh_Utils.h" t="Include" />
+          </e>
+        </e>
+        <e p="RuntimeInfo.cs" t="Include" />
+        <e p="Screens" t="Include">
+          <e p="Screen.cs" t="Include" />
+        </e>
+        <e p="Statistics" t="Include">
+          <e p="BackgroundStackTraceCollector.cs" t="Include" />
+          <e p="FrameStatistics.cs" t="Include" />
+          <e p="PerformanceMonitor.cs" t="Include" />
+        </e>
+        <e p="Testing" t="Include">
+          <e p="Drawables" t="Include">
+            <e p="Steps" t="Include">
+              <e p="AssertButton.cs" t="Include" />
+              <e p="RepeatStepButton.cs" t="Include" />
+              <e p="SingleStepButton.cs" t="Include" />
+              <e p="StepButton.cs" t="Include" />
+              <e p="StepSlider.cs" t="Include" />
+              <e p="ToggleStepButton.cs" t="Include" />
+              <e p="UntilStepButton.cs" t="Include" />
+            </e>
+            <e p="TestCaseButton.cs" t="Include" />
+          </e>
+          <e p="DynamicClassCompiler.cs" t="Include" />
+          <e p="GridTestCase.cs" t="Include" />
+          <e p="IDynamicallyCompile.cs" t="Include" />
+          <e p="TestBrowser.cs" t="Include" />
+          <e p="TestBrowserConfig.cs" t="Include" />
+          <e p="TestBrowserTestRunner.cs" t="Include" />
+          <e p="TestCase.cs" t="Include" />
+          <e p="TestCaseTestRunner.cs" t="Include" />
+          <e p="Tests" t="Include">
+            <e p="TestTestCase.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Threading" t="Include">
+          <e p="AtomicCounter.cs" t="Include" />
+          <e p="AudioThread.cs" t="Include" />
+          <e p="DrawThread.cs" t="Include" />
+          <e p="GameThread.cs" t="Include" />
+          <e p="InputThread.cs" t="Include" />
+          <e p="Scheduler.cs" t="Include" />
+          <e p="UpdateThread.cs" t="Include" />
+        </e>
+        <e p="Timing" t="Include">
+          <e p="DecoupleableInterpolatingFramedClock.cs" t="Include" />
+          <e p="FramedClock.cs" t="Include" />
+          <e p="FramedOffsetClock.cs" t="Include" />
+          <e p="FrameTimeInfo.cs" t="Include" />
+          <e p="IAdjustableClock.cs" t="Include" />
+          <e p="IClock.cs" t="Include" />
+          <e p="IFrameBasedClock.cs" t="Include" />
+          <e p="InterpolatingFramedClock.cs" t="Include" />
+          <e p="ManualClock.cs" t="Include" />
+          <e p="OffsetClock.cs" t="Include" />
+          <e p="StopwatchClock.cs" t="Include" />
+          <e p="ThrottledFrameClock.cs" t="Include" />
+        </e>
+        <e p="x64" t="Include">
+          <e p="avcodec-51.dll" t="Include" />
+          <e p="avformat-52.dll" t="Include" />
+          <e p="avutil-49.dll" t="Include" />
+          <e p="bass.dll" t="Include" />
+          <e p="bass_fx.dll" t="Include" />
+          <e p="d3dcompiler_47.dll" t="Include" />
+          <e p="libEGL.dll" t="Include" />
+          <e p="libGLESv2.dll" t="Include" />
+          <e p="pthreadGC2.dll" t="Include" />
+          <e p="SQLite.Interop.dll" t="Include" />
+        </e>
+        <e p="x86" t="Include">
+          <e p="avcodec-51.dll" t="Include" />
+          <e p="avformat-52.dll" t="Include" />
+          <e p="avutil-49.dll" t="Include" />
+          <e p="bass.dll" t="Include" />
+          <e p="bass_fx.dll" t="Include" />
+          <e p="d3dcompiler_47.dll" t="Include" />
+          <e p="libEGL.dll" t="Include" />
+          <e p="libGLESv2.dll" t="Include" />
+          <e p="pthreadGC2.dll" t="Include" />
+          <e p="SQLite.Interop.dll" t="Include" />
+        </e>
+      </e>
+      <e p="OsuFrameworkExamples" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Configuration" t="Include">
+          <e p="Bindable.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="OsuFrameworkExamples.csproj" t="IncludeRecursive" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+      </e>
+      <e p="OsuFrameworkExamples.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+    <e p="$USER_HOME$/Library/Caches/Rider2017.3/resharper-host/local/Transient/ReSharperHost/v11/SolutionCaches/_OsuFrameworkExamples.-1597109027.00" t="ExcludeRecursive" />
+  </component>
+</project>
