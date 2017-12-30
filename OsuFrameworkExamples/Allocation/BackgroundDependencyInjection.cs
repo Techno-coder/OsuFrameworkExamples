@@ -64,7 +64,7 @@ namespace OsuFrameworkExamples.Allocation {
 			anotherContainer.Inject(anotherSprite);
 			
 			try {
-				sprite.Draw();
+				anotherSprite.Draw();
 			}
 			catch (NullReferenceException) {
 				Console.WriteLine("But I just wanted a unicorn ...");
