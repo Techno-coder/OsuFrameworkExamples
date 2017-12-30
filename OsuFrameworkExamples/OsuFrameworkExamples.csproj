@@ -38,6 +38,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Allocation\BackgroundDependencyInjection.cs" />
     <Compile Include="Configuration\Bindable.cs" />
     <Compile Include="Configuration\ConfigManager.cs" />
     <Compile Include="ExamplesMain.cs" />
