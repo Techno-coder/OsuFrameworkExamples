@@ -89,7 +89,7 @@ namespace OsuFrameworkExamples.Configuration {
 			// You can check for yourself too!
 			ExamplesMain.WaitToContinue();
 			
-			// Don't mind me; just doing some janitor buisness
+			// Don't mind me; just doing some janitor business
 			storageFolder.DeleteDirectory("");
 			
 			ExamplesMain.PrintLongHorizontalLineSeparator();

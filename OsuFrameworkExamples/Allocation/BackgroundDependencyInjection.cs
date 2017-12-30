@@ -36,8 +36,9 @@ namespace OsuFrameworkExamples.Allocation {
 			// Hey look a sprite ... but it needs to use a Renderer
 			var sprite = new Sprite();
 			
-			// Inject calls the load(Renderer newRenderer) method
-			// and uses its stored objects for the arguments
+			// Inject calls the Load(Renderer newRenderer) method
+			// in the Sprite class and uses its stored objects
+			// for the arguments
 			// Note: Method name can be anything as long as it has
 			// the attribute BackgroundDependencyLoader
 			container.Inject(sprite);
