@@ -91,7 +91,7 @@ namespace OsuFrameworkExamples.Platform {
 			ExamplesMain.WaitToContinue();
 			
 			// We were never here [yes, it's a bit of a hack]
-			storage.DeleteDirectory("../BadRPGGame");
+			storage.DeleteDirectory("");
 			
 			ExamplesMain.PrintLongHorizontalLineSeparator();
 		}

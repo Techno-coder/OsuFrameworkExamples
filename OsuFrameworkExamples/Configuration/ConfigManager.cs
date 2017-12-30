@@ -90,7 +90,7 @@ namespace OsuFrameworkExamples.Configuration {
 			ExamplesMain.WaitToContinue();
 			
 			// Don't mind me; just doing some janitor buisness
-			storageFolder.DeleteDirectory("../BadRPGGame");
+			storageFolder.DeleteDirectory("");
 			
 			ExamplesMain.PrintLongHorizontalLineSeparator();
 		}
